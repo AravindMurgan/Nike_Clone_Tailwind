@@ -13,7 +13,7 @@ function Navbar() {
 				<nav>
 					<div className='flex justify-between bg-gray-200'>
 						<div className='p-2 ml-5'>
-							<img src='./images/Jumpman.png' alt='' className=' h-6 w-6 ml-4' />
+							<img src='./images/Jumpman.png' alt='jumpan' className=' h-6 w-6 ml-4' />
 						</div>
 
 						<div className='flex justify-evenly  p-2 mr-5 w-60'>
@@ -27,7 +27,7 @@ function Navbar() {
 				</nav>
 
 				{/* Navbar-2    */}
-				<nav className='flex justify-between p-3 border-solid border-b-2 items-center'>
+				<nav className='flex justify-between h-16  border-solid border-b-2 items-center'>
 					{/* Logo */}
 					<div className='lg:ml-5'>
 						<img
@@ -39,8 +39,8 @@ function Navbar() {
 
 					{/* Nav-Menu */}
 					<div className='flex items-center '>
-						<nav className=' text-center mr- '>
-							<ul className='flex text-xl mr-36 '>
+						<nav className=' text-center'>
+							<ul className='flex text-md mr-36 '>
 								<li className='mr-10'>
 									<p>Men</p>
 								</li>
@@ -60,7 +60,7 @@ function Navbar() {
 						</nav>
 
 						{/* Search-Bar */}
-						<div className=' flex justify-around items-center bg-gray-100 hover:bg-gray-200 rounded-full px-2 py-2 '>
+						<div className=' flex justify-around items-center bg-gray-100 hover:bg-gray-200 rounded-full px-1  '>
 							<span>
 								<SearchIcon fontSize='large' />
 							</span>

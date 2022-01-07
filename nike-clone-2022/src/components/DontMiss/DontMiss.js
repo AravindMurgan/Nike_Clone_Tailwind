@@ -15,26 +15,32 @@ function DontMiss() {
 	return (
 		<div className='w-full mt-8 md:mt-10 xl:mt-12  '>
 			<h1 className='text-2xl md:text-3xl xl:text-4xl mb-5'>Dont Miss</h1>
-			<div className='relative  aspect-w-5 aspect-h-6 sm:aspect-w-4 sm:aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 '>
+			<div className='relative  aspect-w-7 aspect-h-8 sm:aspect-w-6 sm:aspect-h-4 
+				md:aspect-w-12 md:aspect-h-6 lg:aspect-w-12 lg:aspect-h-6'>
 				<img
 					className='object-cover object-left'
 					src='https://static.nike.com/a/images/f_auto/dpr_2.0/w_1237,c_limit/858d69b9-2fe7-49f5-8dc3-83e834f8b9f2/nike-just-do-it.jpg'
 					alt=''
 				/>
 
-				<div className=' absolute top-80 left-48  '>
-					<p className='text-base md:text-xl xl:text-2xl text-white font-normal mb-2 '>
+				<div className=' absolute top-60 left-7 sm:top-44 sm:left-16 md:top-40 md:left-12 lg:top-48 lg:left-12 xl:top-96'>
+					<p className='text-base md:text-lg xl:text-2xl text-white mb-2 font-medium'>
 						Nike App Exclusive
 					</p>
-					<h3 className='font-Roboto text-3xl sm:text-3xl md:text-7xl  tracking-tighter font- italic text-white'>
+					<h3 className='font-Roboto text-4xl sm:text-4xl md:text-5xl  tracking-tighter font- italic text-white'>
 						NIKE METCON 7
 					</h3>
-					<p className='text-xl text-white font-normal'>
+					<p className='text-base md:text-lg xl:text-2xl  text-white font-medium'>
 						The smartest Metcon ever
 					</p>
-					<span className='inline-block text-xl mt-5 rounded-full bg-white text-black px-10 py-2 min-width-full'>
-						<button>Learn More</button>
-					</span>
+
+					<button className='inline mt-8 mr-5  w-36 md:w-52 lg:w-56  
+							md:px-8 py-2 md:py-2 lg:py-3 md:text-lg lg:text-xl 
+							text-base bg-white text-black rounded-full'
+					>
+						Learn More
+					</button>
+
 				</div>
 			</div>
 			<Carousel className='mt-14' breakPoints={breakPoints}>
