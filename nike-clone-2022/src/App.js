@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Banner from './components/Banner/Banner';
+import BottomNavSection from './components/BottomNavSection/BottomNavSection';
+import ClothingSectionLink from './components/ClothingSectionLink/ClothingSectionLink';
+import DontMiss from './components/DontMiss/DontMiss';
+import NikeHero from './components/Hero/NikeHero';
+import MoreNikeSection from './components/MoreNikeSection/MoreNikeSection';
+import Navbar from './components/Navbar/Navbar';
+import TheLatest from './components/TheLatest/TheLatest';
+import TrendingSection from './components/TrendingSection/TrendingSection';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='w-full'>
+			{/* Navbar */}
+			<Navbar />
+			{/* Banner */}
+			<Banner />
+
+			{/* Main-Section	 */}
+
+			<div className='flex flex-col justify-center items-center mx-5 sm:mx-6 md:mx-8 xl:mx-10  '>
+				{/* Nike-Hero */}
+				<NikeHero />
+
+				{/* Trending-Section */}
+				<TrendingSection />
+
+				{/* The-Latest */}
+				<TheLatest />
+
+				{/* Dont-Miss */}
+				<DontMiss />
+
+				{/* More-Nike-Section */}
+				<MoreNikeSection />
+
+				{/* Clothing-Link-Section */}
+				<ClothingSectionLink />
+			</div>
+			{/* Bottom Section */}
+			<BottomNavSection />
+		</div>
+	);
 }
 
 export default App;
