@@ -22,7 +22,8 @@ function NikeHero() {
 			</div>
 
 			<div className='mt-5 md:mt-8 md:flex md:flex-col md:justify-center md:items-center'>
-				<h1 className='font-Roboto text-4xl md:text-5xl  lg:text-6xl xl:text-7xl text-left tracking-tighter font- italic md:text-center'>
+				<h1 className='font-Roboto text-4xl md:text-5xl  lg:text-6xl xl:text-7xl 
+					text-left tracking-tighter font- italic md:text-center'>
 					YOUR NIKE
 					<br />
 					CONNECTION

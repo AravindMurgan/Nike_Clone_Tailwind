@@ -14,7 +14,8 @@ function MoreNikeSection() {
 						alt='Womens'
 					/>
 
-					<span className='absolute bottom-8 left-5  inline-block text-xl mt-2 rounded-full bg-white text-black px-5 py-2 min-width-full'>
+					<span className='absolute bottom-8 left-5  inline-block text-xl mt-2 
+						rounded-full bg-white text-black px-5 py-2 min-width-full'>
 						<button>Women's</button>
 					</span>
 				</div>
@@ -24,7 +25,8 @@ function MoreNikeSection() {
 						src='https://static.nike.com/a/images/f_auto/dpr_2.0/w_402,c_limit/ea7e8ed9-8f3b-4fcf-a7b5-07a66517e8ac/nike-just-do-it.jpg'
 						alt='Womens'
 					/>
-					<span className='absolute bottom-8 left-5  inline-block text-xl mt-5 rounded-full bg-white text-black px-5 py-2 min-width-full'>
+					<span className='absolute bottom-8 left-5  inline-block text-xl mt-5 
+					`	rounded-full bg-white text-black px-5 py-2 min-width-full'>
 						<button>Men's</button>
 					</span>
 				</div>
@@ -34,7 +36,8 @@ function MoreNikeSection() {
 						className='w-full'
 						alt='kids'
 					/>
-					<span className='absolute bottom-8 left-5  inline-block text-xl mt-5 rounded-full bg-white text-black px-5 py-2 min-width-full'>
+					<span className='absolute bottom-8 left-5  inline-block text-xl mt-5 
+						rounded-full bg-white text-black px-5 py-2 min-width-full'>
 						<button>Kids</button>
 					</span>
 				</div>

@@ -18,7 +18,6 @@ function App() {
 			<Banner />
 
 			{/* Main-Section	 */}
-
 			<div className='flex flex-col justify-center items-center mx-7 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-12  '>
 				{/* Nike-Hero */}
 				<NikeHero />

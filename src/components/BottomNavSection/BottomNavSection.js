@@ -59,10 +59,10 @@ function BottomNavSection() {
 					</div>
 
 					{/* section-3 */}
-					<div  className='mt-10 md:mt-0' >
+					<div className='mt-10 md:mt-0' >
 						<h3 className='text-white text-sm font-bold'>ABOUT NIKE</h3>
 						{section3.map((data, index) => (
-							<ul  className='hidden md:inline-block md:w-44' key={index}>
+							<ul className='hidden md:inline-block md:w-44' key={index}>
 								<li>
 									<button className='text-gray-500 text-sm leading-8 hover:text-white'>
 										{data}{' '}
@@ -83,17 +83,20 @@ function BottomNavSection() {
 						</span>
 					</div>
 					<div className='flex items-center h-7 md:h-10' >
-						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
+						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full 
+							hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
 							<YouTubeIcon />
 						</span>
 					</div>
 					<div className='flex items-center h-7 md:h-10' >
-						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
+						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full 
+							hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
 							<InstagramIcon />
 						</span>
 					</div>
 					<div className='flex items-center h-7 md:h-10' >
-						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
+						<span className='mr-3 md:mr-5 p-1 md:p-2 a rounded-full 
+							hover:bg-white bg-gray-700 duration-150 cursor-pointer'>
 							<FacebookIcon />
 						</span>
 					</div>
