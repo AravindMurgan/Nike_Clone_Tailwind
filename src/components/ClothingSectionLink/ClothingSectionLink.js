@@ -15,7 +15,7 @@ function ClothingSectionLink() {
 			<div className='hidden sm:visible sm:flex sm:justify-evenly  sm:mt-20 '>
 				{/* Icons */}
 				<div>
-					<h3 className='mb-10'>Iconsdd</h3>
+					<h3 className='mb-10'>Icons</h3>
 					{icons.map((data) => (
 						<ul key={data.id}>
 							<li>
