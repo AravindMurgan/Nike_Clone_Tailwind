@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-Roboto{
+        font-family: "Roboto Condensed", sans-serif;
+}
+
+
