@@ -33,7 +33,7 @@ function Navbar() {
 						<img
 							src='./images/Nike_logo.png'
 							style={{ height: '60px', width: '60px' }}
-							alt='nike__logo'
+							alt='nikeLogo'
 						/>
 					</div>
 
