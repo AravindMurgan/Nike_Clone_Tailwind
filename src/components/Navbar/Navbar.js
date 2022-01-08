@@ -31,7 +31,7 @@ function Navbar() {
 					{/* Logo */}
 					<div className='lg:ml-5'>
 						<img
-							src='http://logosvg.com/wp-content/uploads/2017/01/Nike_logo.png'
+							src='./images/Nike_logo.png'
 							style={{ height: '60px', width: '60px' }}
 							alt='nike__logo'
 						/>

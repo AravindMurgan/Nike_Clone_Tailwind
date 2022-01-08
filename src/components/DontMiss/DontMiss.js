@@ -23,7 +23,7 @@ function DontMiss() {
 					alt='Exclusive'
 				/>
 
-				<div className=' absolute top-60 left-7 sm:top-44 sm:left-16 md:top-40 md:left-12 lg:top-48 lg:left-12 xl:top-96'>
+				<div className=' absolute top-40 left-7 sm:top-44 sm:left-16 md:top-40 md:left-12 lg:top-48 lg:left-12 xl:top-96'>
 					<p className='text-base md:text-lg xl:text-2xl text-white mb-2 font-medium'>
 						Nike App Exclusive
 					</p>
