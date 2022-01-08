@@ -30,11 +30,10 @@ function Navbar() {
 				<nav className='flex justify-between h-16  border-solid border-b-2 items-center'>
 					{/* Logo */}
 					<div className='lg:ml-5'>
-						<img
-							src='./images/Nike_logo.png'
-							style={{ height: '60px', width: '60px' }}
-							alt='nikeLogo'
-						/>
+						<svg class="pre-logo-svg" className='w-14 h-14' fill="#111" viewBox="0 0 69 32">
+							<path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
+						</svg>
+
 					</div>
 
 					{/* Nav-Menu */}
@@ -67,7 +66,7 @@ function Navbar() {
 
 							<input
 								type='text'
-								className='focus:outline-none  bg-transparent text-xl m-2 w-36'
+								className='focus:outline-none bg-transparent text-xl m-2 w-36'
 								placeholder='Search'
 							/>
 						</div>
@@ -85,11 +84,9 @@ function Navbar() {
 			<header className='sm:p-2 ml-4 lg:hidden'>
 				<nav className='flex justify-between items-center w-full m-0 p-0'>
 					<div>
-						<img
-							src='http://logosvg.com/wp-content/uploads/2017/01/Nike_logo.png'
-							style={{ height: '60', width: '60px' }}
-							alt='nike__logo'
-						/>
+						<svg class="pre-logo-svg" className='w-12 h-12' fill="#111" viewBox="0 0 69 32">
+							<path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
+						</svg>
 					</div>
 
 					<div>
