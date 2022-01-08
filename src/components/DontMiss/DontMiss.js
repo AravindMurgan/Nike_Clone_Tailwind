@@ -20,7 +20,7 @@ function DontMiss() {
 				<img
 					className='object-cover object-left'
 					src='https://static.nike.com/a/images/f_auto/dpr_2.0/w_1237,c_limit/858d69b9-2fe7-49f5-8dc3-83e834f8b9f2/nike-just-do-it.jpg'
-					alt=''
+					alt='Exclusive'
 				/>
 
 				<div className=' absolute top-60 left-7 sm:top-44 sm:left-16 md:top-40 md:left-12 lg:top-48 lg:left-12 xl:top-96'>

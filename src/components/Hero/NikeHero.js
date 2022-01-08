@@ -10,14 +10,14 @@ function NikeHero() {
 				<img
 					className='w-full  h-64 md:h-full object-cover object-center  md:px-5 lg:hidden'
 					src='https://static.nike.com/a/images/f_auto/dpr_2.0/w_1031,c_limit/7c029d74-8aff-4130-a563-82ee67282c66/nike-just-do-it.jpg'
-					alt=''
+					alt='nikeHero'
 				/>
 			</div>
 			<div className='hidden lg:block'>
 				<img
 					className='w-full'
 					src='https://static.nike.com/a/images/f_auto/dpr_2.0/w_1031,c_limit/7c029d74-8aff-4130-a563-82ee67282c66/nike-just-do-it.jpg'
-					alt=''
+					alt='nikeHero'
 				/>
 			</div>
 

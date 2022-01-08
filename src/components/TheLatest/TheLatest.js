@@ -10,7 +10,7 @@ function TheLatest() {
 					<img
 						className='object-cover '
 						src='https://static.nike.com/a/images/f_auto/dpr_1.1/w_1115,c_limit/5201e4af-b3b4-4091-8219-5adb361d1c02/nike-just-do-it.jpg'
-						alt=''
+						alt='latestSection'
 					/>
 				</div>
 			</div>

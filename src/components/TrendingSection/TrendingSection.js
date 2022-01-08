@@ -10,7 +10,8 @@ function TrendingSection() {
 			{/* Trending-Section */}
 			<div className='flex flex-col sm:flex-row '>
 				<div className='mb-5 sm:mr-4 md:mr-6 xl:mr-8 relative  '>
-					<img src='https://static.nike.com/a/images/f_auto/dpr_2.0/h_700,c_limit/14b2fe0e-4059-4ac7-beb0-7c6820f90993/nike-just-do-it.jpg' />
+					<img src='https://static.nike.com/a/images/f_auto/dpr_2.0/h_700,c_limit/14b2fe0e-4059-4ac7-beb0-7c6820f90993/nike-just-do-it.jpg'
+						alt='trendSection' />
 
 					<div className='absolute bottom-6 left-3 md:bottom-5 md:left-5 lg:bottom-7 lg:left-7 xl:bottom-9 xl:left-9 '>
 						<h3 className='text-lg sm:text-sm md:text-lg lg:text-2xl font-medium'>
@@ -26,7 +27,7 @@ function TrendingSection() {
 				<div className='relative'>
 					<img
 						src='https://static.nike.com/a/images/f_auto/dpr_2.0/h_700,c_limit/b8583010-9026-45c4-8637-1753af418565/nike-just-do-it.jpg'
-						alt=''
+						alt='trendSection'
 					/>
 					<div className='absolute bottom-6 left-3 md:bottom-10 md:left-8 lg:bottom-16 lg:left-10  '>
 						<h3 className='text-lg sm:text-sm md:text-lg lg:text-2xl font-medium text-white'>
